@@ -23,7 +23,7 @@ This is model **m23** of the WT-PM wind-turbine predictive-maintenance suite (se
 
 - **Input:** tabular feature tensor `x` of shape `(batch_size, input_dim)` (`float32`).
 - **Loss (caller-supplied):** mean-squared reconstruction error, e.g. `nn.MSELoss()(reconstructed, x)`.
-- **Size:** 4,744 parameters for the default `(input_dim=64, latent_dim=8)` configuration (2,468 parameters when the platform instantiates it on its 38-column feature table with `latent_dim=4`).
+- **Size:** 4,744 parameters for the default `(input_dim=64, latent_dim=8)` configuration (2,794 parameters when the platform instantiates it on its 38-column feature table with `latent_dim=4`).
 
 ## Structure
 
